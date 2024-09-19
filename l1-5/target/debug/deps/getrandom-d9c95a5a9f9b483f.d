@@ -1,0 +1,11 @@
+/Users/admin/rust-projects/wb-l1-tasks/l1-5/target/debug/deps/libgetrandom-d9c95a5a9f9b483f.rmeta: /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/lib.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/error.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/util.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/util_libc.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/getentropy.rs
+
+/Users/admin/rust-projects/wb-l1-tasks/l1-5/target/debug/deps/libgetrandom-d9c95a5a9f9b483f.rlib: /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/lib.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/error.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/util.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/util_libc.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/getentropy.rs
+
+/Users/admin/rust-projects/wb-l1-tasks/l1-5/target/debug/deps/getrandom-d9c95a5a9f9b483f.d: /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/lib.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/error.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/util.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/util_libc.rs /Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/getentropy.rs
+
+/Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/lib.rs:
+/Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/error.rs:
+/Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/util.rs:
+/Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/util_libc.rs:
+/Users/admin/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.15/src/getentropy.rs:

@@ -1,8 +1,17 @@
 use std::{
     sync::{mpsc, Arc, Mutex},
     thread,
+    io,
 };
 fn main() {
+    let mut workers = String::new();
+    
+    io::stdin()
+        .read_line(&mut workers)
+        .expect("Failed to read line");
+    
+    let workers: u32 = workers.trim().parse().unwrap();
+
     let pool = ThreadPool::new(5);
     let mut i = 0;
     loop {
