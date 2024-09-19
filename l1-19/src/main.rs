@@ -10,11 +10,9 @@ fn main() {
 
     let reversed = reverse_words(input);
 
-    // Outputting the result
     println!("Reversed words: {}", reversed);
 }
 
-// Function to reverse the words in a sentence
 fn reverse_words(sentence: &str) -> String {
     sentence
         .split_whitespace()
