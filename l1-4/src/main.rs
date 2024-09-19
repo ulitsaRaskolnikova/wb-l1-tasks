@@ -12,7 +12,7 @@ fn main() {
     
     let workers: u32 = workers.trim().parse().unwrap();
 
-    let pool = ThreadPool::new(5);
+    let pool = ThreadPool::new(workers as usize);
     let mut i = 0;
     loop {
         let message = format!("Message {}", i);
