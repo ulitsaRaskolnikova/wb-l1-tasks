@@ -2,13 +2,15 @@ use std::io::{self, Write};
 
 fn main() {
     let mut input = String::new();
-    print!("Введите строку: ");
-    io::stdout().flush().expect("Не удалось очистить stdout");
-    io::stdin().read_line(&mut input).expect("Ошибка при чтении строки");
-
+    print!("Enter a string: ");
+    io::stdout().flush().expect("Failed to flush stdout");
+    io::stdin().read_line(&mut input).expect("Error reading input");
+    
     let input = input.trim();
+
     let reversed = reverse_string(input);
-    println!("Перевернутая строка: {}", reversed);
+
+    println!("Reversed string: {}", reversed);
 }
 
 fn reverse_string(s: &str) -> String {
