@@ -4,16 +4,16 @@ fn main() {
     for i in 0..65 {
         // Попробуем включить бит
         if let Err(e) = set_bit(&mut number, i) {
-            println!("Не удалось включить бит с индексом {}: {}", i, e);
+            println!("Failed to set bit at index {}: {}", i, e);
         } else {
-            println!("Включили {}-й бит: {}", i, number);
+            println!("Set {}-th bit: {}", i, number);
         }
 
         // Попробуем выключить бит
         if let Err(e) = clear_bit(&mut number, i) {
-            println!("Не удалось выключить бит с индексом {}: {}", i, e);
+            println!("Failed to clear bit at index {}: {}", i, e);
         } else {
-            println!("Выключили {}-й бит: {}", i, number);
+            println!("Cleared {}-th bit: {}", i, number);
         }
     }
 }
@@ -21,19 +21,19 @@ fn main() {
 // Включение бита на позиции i
 fn set_bit(value: &mut u64, index: u32) -> Result<(), String> {
     if index < 64 {
-        *value |= 1 << index;
+        *value |= 1 << index; // Включаем бит
         Ok(())
     } else {
-        Err(format!("Индекс {} выходит за пределы допустимого диапазона", index))
+        Err(format!("Index {} is out of range", index)) // Возвращаем ошибку, если индекс выходит за пределы
     }
 }
 
 // Выключение бита на позиции i
 fn clear_bit(value: &mut u64, index: u32) -> Result<(), String> {
     if index < 64 {
-        *value &= !(1 << index);
+        *value &= !(1 << index); // Выключаем бит
         Ok(())
     } else {
-        Err(format!("Индекс {} выходит за пределы допустимого диапазона", index))
+        Err(format!("Index {} is out of range", index)) // Возвращаем ошибку, если индекс выходит за пределы
     }
 }
