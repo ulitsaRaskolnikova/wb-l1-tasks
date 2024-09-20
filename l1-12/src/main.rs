@@ -17,5 +17,5 @@ fn main() {
     let set1: HashSet<i32> = vec![1, 2, 3, 4, 5].into_iter().collect();
     let set2: HashSet<i32> = vec![3, 4, 5, 6, 7].into_iter().collect();
     let intersection = find_intersection(&set1, &set2);
-    println!("Пересечение: {:?}", intersection);
+    println!("Intersection: {:?}", intersection);
 }
