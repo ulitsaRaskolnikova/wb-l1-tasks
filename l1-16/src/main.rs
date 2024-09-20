@@ -20,11 +20,10 @@ fn binary_search(arr: &[i32], target: i32) -> Option<usize> {
 
 fn main() {
     let sorted_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100, 101];
-
     let target = 100;
 
     match binary_search(&sorted_arr, target) {
-        Some(index) => println!("Элемент найден на индексе: {}", index),
-        None => println!("Элемент не найден в массиве"),
+        Some(index) => println!("Element found at index: {}", index),
+        None => println!("Element not found in the array"),
     }
 }
